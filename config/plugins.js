@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
     config: {
       deployHook: process.env.VERCEL_HOOK,
       apiToken: process.env.VERCEL_TOKEN,
-      appFilter: "your-app-name-on-vercel",
+      appFilter: "strapi-backend",
       teamFilter: "your-team-id-on-vercel",
       roles: ["strapi-super-admin", "strapi-editor", "strapi-author"],
     },
